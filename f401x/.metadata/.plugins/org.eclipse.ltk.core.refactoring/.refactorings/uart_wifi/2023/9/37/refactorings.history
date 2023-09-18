@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;uart_wifi/src/buttonPollThread.cpp&apos; to &apos;buttonThread.cpp&apos;" description="Rename resource &apos;buttonPollThread.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/buttonPollThread.cpp" name="buttonThread.cpp" stamp="1694863711708" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;uart_wifi/src/buttonThread.cpp&apos; to &apos;buttonThread.c&apos;" description="Rename resource &apos;buttonThread.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/buttonThread.cpp" name="buttonThread.c" stamp="1694864923160" updateReferences="true"/>
+</session>

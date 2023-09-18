@@ -1,0 +1,26 @@
+/*
+ * buttonPollThread.cpp
+ *
+ *  Created on: Sep 16, 2023
+ *      Author: ramad
+ */
+#include "main.h"
+#include "cmsis_os.h"
+
+void ButtonPoll(void *argument) {
+	(void)argument;
+	uint64_t button_trace = 0;
+
+	while (1) {
+		GPIO_PinState state = HAL_GPIO_ReadPin(KEY_GPIO_Port, KEY_Pin);
+		button_trace = (button_trace << 1) + state;
+
+		if
+	}
+}
+
+void BtnEventHandler_task(void* argument){
+	(void)argument;
+
+
+}

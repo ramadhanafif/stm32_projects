@@ -1,0 +1,10 @@
+21:47:45 **** Incremental Build of configuration Debug for project uart_wifi ****
+make -j16 all 
+arm-none-eabi-size   uart_wifi.elf 
+   text	   data	    bss	    dec	    hex	filename
+  56768	    356	  28820	  85944	  14fb8	uart_wifi.elf
+Finished building: default.size.stdout
+ 
+
+21:47:45 Build Finished. 0 errors, 0 warnings. (took 452ms)
+
